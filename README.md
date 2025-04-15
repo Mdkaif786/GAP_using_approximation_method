@@ -11,10 +11,11 @@ It also includes a comparison of the greedy approach results with the optimal so
 
 ## 📁 Project Structure
 
+```text
 project/
 │
-├── approximate_GAP_solver.ipynb        # Main Jupyter notebook (create or move here)
-├── gap_dataset_files/              # Folder containing gap1.txt, gap2.txt, ... (already exists)
+├── optimal_gap_solver.ipynb        # Main Jupyter notebook
+├── gap_dataset_files/              # Folder containing gap1.txt, gap2.txt, ...
 │   ├── gap1.txt
 │   ├── gap2.txt
 │   └── ...                         # All GAP dataset files
@@ -22,7 +23,8 @@ project/
 ├── greedy_results.csv              # Output from Greedy method
 ├── optimal_results.csv             # Output from Optimal method
 ├── gap_comparison_plot.png         # Graph comparing results
-├── README.md  
+├── README.md                       # Description of the project
+```
 
 ## 🧩 Problem Statement
 
